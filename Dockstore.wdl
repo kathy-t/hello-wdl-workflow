@@ -1,6 +1,10 @@
 version 1.0
 
 task hello {
+  input {
+    String docker_image = "quay.io/ga4gh-dream/dockstore-tool-helloworld:1.0.2"
+  }
+
   command {
     echo 'Hello world!'
   }
@@ -10,7 +14,7 @@ task hello {
   }
 
   runtime {
-    docker: "quay.io/ga4gh-dream/dockstore-tool-helloworld:1.0.2"
+    docker: docker_image
   }
 }
 
