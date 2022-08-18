@@ -10,7 +10,7 @@ task hello {
   }
 
   runtime {
-    docker: "quay.io/openshift-examples/multi-arch:multi"
+    docker: "quay.io/calico/node:v3.23.0-0.dev-417-g89b438f573e2"
   }
 }
 
