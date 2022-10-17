@@ -2,7 +2,7 @@ version 1.0
 
 task hello {
   command {
-    echo 'Hello world!'
+    echo 'Hello world!!'
   }
 
   output {
