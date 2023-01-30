@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+   - subclass: wdl
+     primaryDescriptorPath: /Dockstore.wdl
+     testParameterFiles:
+     - /test.json
+     authors:
+     - name: Kathy
+     name: ghapps
