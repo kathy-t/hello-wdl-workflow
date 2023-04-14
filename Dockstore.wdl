@@ -18,7 +18,7 @@ workflow test {
   call hello
  
   meta {
-    author : "Test User 1"
+    author : "Test User 2"
     email : "test@dockstore.org"
     description: "This is a description!"
   }
