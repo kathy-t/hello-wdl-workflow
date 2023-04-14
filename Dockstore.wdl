@@ -1,5 +1,11 @@
 version 1.1
 
+meta {
+    author : "Test User"
+    email : "test@dockstore.org"
+    description: "This is a description"
+ }
+
 task hello {
   command {
     echo 'Hello world!!'
@@ -16,10 +22,5 @@ task hello {
 
 workflow test {
   call hello
-  
-  meta {
-      author : "Test User"
-      email : "test@dockstore.org"
-      description: "This is a description"
-   }
+ 
 }
