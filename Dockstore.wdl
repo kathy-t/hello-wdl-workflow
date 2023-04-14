@@ -3,7 +3,7 @@ version 1.0
 meta {
     author : "Test User 1"
     email : "test@dockstore.org"
-    description: "This is a description"
+    description: "This is a description!"
  }
 
 task hello {
