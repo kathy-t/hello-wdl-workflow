@@ -16,4 +16,10 @@ task hello {
 
 workflow test {
   call hello
+  
+  meta {
+      author : "Test User"
+      email : "test@dockstore.org"
+      description: "This is a description"
+   }
 }
