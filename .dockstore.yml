@@ -5,5 +5,4 @@ workflows:
      testParameterFiles:
      - /test.json
      authors:
-     - name: Test Author
-     name: ghapps
+     - name: GitHub App Test Author
