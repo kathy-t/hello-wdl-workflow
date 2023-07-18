@@ -6,3 +6,8 @@ workflows:
      - /test.json
      authors:
      - name: GitHub App Test Author
+   - subclass: wdl2
+     name: workflow2
+     primaryDescriptorPath: /Dockstore.wdl
+     testParameterFiles:
+     - /test.json
