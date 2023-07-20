@@ -11,3 +11,7 @@ workflows:
      primaryDescriptorPath: /Dockstore.wdl
      testParameterFiles:
      - /test.json
+tools:
+   - subclass: wdl
+     name: wdl-tool
+     primaryDescriptorPath: /Dockstore.wdl
