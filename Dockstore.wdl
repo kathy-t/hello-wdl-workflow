@@ -1,5 +1,11 @@
 version 1.0
 
+meta {
+    author: "Test 3"
+    email: "YOUR_EMAIL_HERE"
+    description: "This is sample WDL Tool code taken and adapted from the [dockstore-tool-bamstats](https://github.com/CancerCollaboratory/dockstore-tool-bamstats/blob/develop/Dockstore.wdl) repository. For more information, see 'Getting Started with WDL' in the Dockstore Docs."
+}
+
 task hello {
   command {
     echo 'Hello world!!'
